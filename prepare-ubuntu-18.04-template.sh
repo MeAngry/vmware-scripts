@@ -2,11 +2,11 @@
 ######################################################
 #### WARNING PIPING TO BASH IS STUPID: DO NOT USE THIS
 ######################################################
-# modified from: jcppkkk/prepare-ubuntu-template.sh
+# modified from: jimangel/ubuntu-18.04-scripts
 # TESTED ON UBUNTU 18.04 LTS
 
 # SETUP & RUN
-# curl -sL https://raw.githubusercontent.com/jimangel/ubuntu-18.04-scripts/master/prepare-ubuntu-18.04-template.sh | sudo -E bash -
+# curl -sL https://raw.githubusercontent.com/xxMonkeyxx/vmware-scripts/master/prepare-ubuntu-18.04-template.sh | sudo -E bash -
 
 if [ `id -u` -ne 0 ]; then
 	echo Need sudo
